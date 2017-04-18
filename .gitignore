@@ -1,2 +1,7 @@
 .idea/
 .www.original/
+*.swo
+*.log
+*.DS_Store
+*.keystore
+app/scripts/configuration.js
