@@ -22,6 +22,7 @@
     <plugin name="cordova-plugin-compat" spec="~1.1.0" />
     <plugin name="cordova-plugin-contacts" spec="~1.0.6" />
     <plugin name="cordova-plugin-camera" spec="~2.4.0" />
+    <plugin name="cordova-plugin-geolocation" spec="~2.4.2" />
 
     <access origin="*" />
 
