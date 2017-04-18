@@ -33,6 +33,7 @@
 
     <platform name="android">
         <allow-intent href="market:*" />
+        <icon src="TodosVueIcon.png" />
     </platform>
 
     <platform name="ios">
