@@ -20,6 +20,7 @@
     <plugin name="cordova-plugin-dialogs" spec="~1.2.0" />
     <plugin name="cordova-plugin-inappbrowser" spec="~1.7.0" />
     <plugin name="cordova-plugin-compat" spec="~1.1.0" />
+    <plugin name="cordova-plugin-contacts" spec="~1.0.6" />
 
     <access origin="*" />
 
