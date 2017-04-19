@@ -7,7 +7,7 @@
 3 info using node@v7.6.0
 4 verbose stack Error: ENOENT: no such file or directory, open '/home/pdavila/Code/todosVueCordova/package.json'
 5 verbose cwd /home/pdavila/Code/todosVueCordova
-6 error Linux 4.4.0-64-generic
+6 error Linux 4.4.0-71-generic
 7 error argv "/home/pdavila/Programas/node-v7.6.0-linux-x64/bin/node" "/home/pdavila/Programas/node-v7.6.0-linux-x64/bin/npm" "run" "build"
 8 error node v7.6.0
 9 error npm  v4.1.2

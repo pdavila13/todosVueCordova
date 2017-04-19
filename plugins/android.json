@@ -12,6 +12,30 @@
         },
         "cordova-plugin-device": {
             "PACKAGE_NAME": "io.cordova.hellocordova"
+        },
+        "cordova-plugin-statusbar": {
+            "PACKAGE_NAME": "pdavila.todos"
+        },
+        "phonegap-plugin-push": {
+            "PACKAGE_NAME": "pdavila.todos"
+        },
+        "cordova-plugin-console": {
+            "PACKAGE_NAME": "pdavila.todos"
+        },
+        "cordova-plugin-dialogs": {
+            "PACKAGE_NAME": "pdavila.todos"
+        },
+        "cordova-plugin-inappbrowser": {
+            "PACKAGE_NAME": "pdavila.todos"
+        },
+        "cordova-plugin-compat": {
+            "PACKAGE_NAME": "pdavila.todos"
+        },
+        "cordova-plugin-camera": {
+            "PACKAGE_NAME": "pdavila.todos"
+        },
+        "cordova-plugin-geolocation": {
+            "PACKAGE_NAME": "pdavila.todos"
         }
     },
     "dependent_plugins": {}
