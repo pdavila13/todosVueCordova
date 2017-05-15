@@ -36,6 +36,9 @@
         },
         "cordova-plugin-geolocation": {
             "PACKAGE_NAME": "pdavila.todos"
+        },
+        "cordova-plugin-vibration": {
+            "PACKAGE_NAME": "pdavila.todos"
         }
     },
     "dependent_plugins": {}

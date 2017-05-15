@@ -94,6 +94,15 @@ module.exports = [
         "file": "plugins/cordova-plugin-geolocation/www/PositionError.js",
         "pluginId": "cordova-plugin-geolocation",
         "runs": true
+    },
+    {
+        "id": "cordova-plugin-vibration.notification",
+        "file": "plugins/cordova-plugin-vibration/www/vibration.js",
+        "pluginId": "cordova-plugin-vibration",
+        "merges": [
+            "navigator.notification",
+            "navigator"
+        ]
     }
 ];
 module.exports.metadata = 
@@ -108,7 +117,8 @@ module.exports.metadata =
     "cordova-plugin-inappbrowser": "1.7.0",
     "cordova-plugin-compat": "1.1.0",
     "cordova-plugin-camera": "2.4.0",
-    "cordova-plugin-geolocation": "2.4.2"
+    "cordova-plugin-geolocation": "2.4.2",
+    "cordova-plugin-vibration": "2.1.5"
 };
 // BOTTOM OF METADATA
 });

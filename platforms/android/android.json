@@ -39,6 +39,10 @@
                         {
                             "xml": "<feature name=\"Geolocation\"><param name=\"android-package\" value=\"org.apache.cordova.geolocation.Geolocation\" /></feature>",
                             "count": 1
+                        },
+                        {
+                            "xml": "<feature name=\"Vibration\"><param name=\"android-package\" value=\"org.apache.cordova.vibration.Vibration\" /></feature>",
+                            "count": 1
                         }
                     ]
                 }
@@ -60,7 +64,7 @@
                         },
                         {
                             "xml": "<uses-permission android:name=\"android.permission.VIBRATE\" />",
-                            "count": 1
+                            "count": 2
                         },
                         {
                             "xml": "<uses-permission android:name=\"com.google.android.c2dm.permission.RECEIVE\" />",
@@ -154,6 +158,9 @@
             "PACKAGE_NAME": "pdavila.todos"
         },
         "cordova-plugin-geolocation": {
+            "PACKAGE_NAME": "pdavila.todos"
+        },
+        "cordova-plugin-vibration": {
             "PACKAGE_NAME": "pdavila.todos"
         }
     },
@@ -253,6 +260,15 @@
             "file": "plugins/cordova-plugin-geolocation/www/PositionError.js",
             "pluginId": "cordova-plugin-geolocation",
             "runs": true
+        },
+        {
+            "id": "cordova-plugin-vibration.notification",
+            "file": "plugins/cordova-plugin-vibration/www/vibration.js",
+            "pluginId": "cordova-plugin-vibration",
+            "merges": [
+                "navigator.notification",
+                "navigator"
+            ]
         }
     ],
     "plugin_metadata": {
@@ -265,6 +281,7 @@
         "cordova-plugin-inappbrowser": "1.7.0",
         "cordova-plugin-compat": "1.1.0",
         "cordova-plugin-camera": "2.4.0",
-        "cordova-plugin-geolocation": "2.4.2"
+        "cordova-plugin-geolocation": "2.4.2",
+        "cordova-plugin-vibration": "2.1.5"
     }
 }

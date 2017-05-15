@@ -1,0 +1,41 @@
+{
+    "name": "org.acacha.2dam.pdavila.todosvuecordova",
+    "version": "1.0.1",
+    "displayName": "Todos",
+    "cordova": {
+        "platforms": [
+            "android",
+            "browser"
+        ],
+        "plugins": {
+            "cordova-plugin-camera": {},
+            "cordova-plugin-compat": {},
+            "cordova-plugin-console": {},
+            "cordova-plugin-contacts": {},
+            "cordova-plugin-device": {},
+            "cordova-plugin-dialogs": {},
+            "cordova-plugin-geolocation": {},
+            "cordova-plugin-inappbrowser": {},
+            "cordova-plugin-statusbar": {},
+            "cordova-plugin-vibration": {},
+            "cordova-plugin-whitelist": {},
+            "phonegap-plugin-push": {}
+        }
+    },
+    "dependencies": {
+        "cordova-browser": "~4.1.0",
+        "cordova-android": "~6.1.2",
+        "cordova-plugin-camera": "~2.4.0",
+        "cordova-plugin-compat": "~1.1.0",
+        "cordova-plugin-console": "~1.0.2",
+        "cordova-plugin-contacts": "~1.0.6",
+        "cordova-plugin-device": "~1.1.4",
+        "cordova-plugin-dialogs": "~1.2.0",
+        "cordova-plugin-geolocation": "~2.4.2",
+        "cordova-plugin-inappbrowser": "~1.7.0",
+        "cordova-plugin-statusbar": "~2.1.0",
+        "cordova-plugin-vibration": "~2.1.4",
+        "cordova-plugin-whitelist": "1",
+        "phonegap-plugin-push": "~1.5.3"
+    }
+}
